@@ -1,0 +1,87 @@
+.header-logo h1{
+    color: blue;
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    border-top: 
+}
+
+.header-logo h2 {
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: 100;
+}
+.header-logo h1 span {
+    color: green;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.Tutorials {
+    padding-left: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    background-color: white;
+    color: black;
+}
+
+img {
+    float: right;
+    padding-right: 50px;
+}
+
+.gif {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+a:hover {
+    background-color: #ee7e4b;
+    opacity: 0.8;
+}
+
+.dropbtn1, .dropbtn2, .dropbtn3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+    background-color: #2980B9;
+}
+
+.dropbtn2:hover, .dropbtn2:focus {
+    background-color: #2980B9;
+}
+
+.dropbtn3:hover, .dropbtn3:focus {
+    background-color: #2980B9;
+}
+
+.dropdown-content1, .dropdown-content2, .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
